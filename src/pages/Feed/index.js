@@ -48,7 +48,7 @@ export function Feed() {
     };
 
     return (
-        <View>
+        <View style={{marginBottom: 90}}>
             <Header />
             <FlatList
                 data={posts}
